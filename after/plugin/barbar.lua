@@ -1,0 +1,17 @@
+require('bufferline').setup({
+  animation = false,
+  auto_hide = true,
+  closable = false,
+  icons = false,
+  insert_at_end = false,
+  insert_at_start = false,
+  semantic_letters = true,
+  no_name_title = "[ no name ]",
+  --minimum_padding = 1,
+  --maximum_padding = 1,
+  --icon_separator_active = '▎▎',
+  --icon_separator_inactive = '▎',
+  --icon_close_tab = '',
+  --icon_close_tab_modified = '●',
+  --icon_pinned = '車',
+})
